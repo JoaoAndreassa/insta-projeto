@@ -1,0 +1,76 @@
+/*========containers=============*/
+
+.flex-container{
+  position: relative;
+  display: flex;
+  min-width: 30rem;
+  min-height: 35rem;
+  left: 7em;
+  right: 5em;
+  align-items: center;
+  margin: auto;
+}
+.img-container{
+
+  display: flex;
+  position: relative;
+  width: 36.31rem;
+  height: 36.31rem;
+  
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  height: 23rem;
+  width: 20rem;
+  border: 1px solid rgba(186, 183, 103, 0.296);
+  
+  justify-content: space-around;
+  top: 4rem;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.698);
+}
+.logout-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(186, 183, 103, 0.296);
+  width: 20rem;
+  top: 27.2rem;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.698);
+  
+}
+.download{
+  position: absolute;
+  
+  width: 20rem;
+  top: 32.75rem;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.698);
+}
+/*========imagens=============*/
+
+.store{
+  height: 1.8rem;
+  width: 7rem;
+}
+.foto-perfil{
+  
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.logo-insta{
+  width: 14.8rem;
+}
+.del{
+  text-decoration: none;
+
+}
